@@ -1,0 +1,2 @@
+verilog work ../../sys_clk_300M.v
+verilog work ../example_design/sys_clk_300M_exdes.v

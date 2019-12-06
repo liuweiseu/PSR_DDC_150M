@@ -1,0 +1,62 @@
+
+# PlanAhead Launch Script for Post PAR Floorplanning, created by Project Navigator
+
+create_project -name PSR_DDC_150M_V1.5 -dir "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/planAhead_run_1" -part xc6vlx240tff1156-1
+set srcset [get_property srcset [current_run -impl]]
+set_property design_mode GateLvl $srcset
+set_property edif_top_file "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/psr_ddc_150M_top.ngc" [ get_property srcset [ current_run ] ]
+add_files -norecurse { {/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0} {ipcore_dir} }
+add_files [list {ipcore_dir/adc_snap_ram_psr.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/Adder4.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/adder_acc.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/ARM_DATA.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/DATA_ADJ_N.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/data_FIFO.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/DDC_FIFO.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/DEDISP_FIFO.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/adder.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/DISP_RAM.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/FreqEqua_Multi.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/Freq_Equa_Para.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/mul.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/Power_Adder.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/ram_acc.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/RAM_ethernet.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/ram_para.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/ROM_sin2400.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/Adder2.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/Adder3.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/DATA_ADJ.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fft_512.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fifo_cross_clock.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir1_70M63.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir1_72M.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir2_70M63.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir2_72M.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir3_70M63.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir4_70M63.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir4_72M.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir5_70M63.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir5_72M.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir6_70M63.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir6_72M.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir7_70M63.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir7_72M.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir3_72M.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/subber.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir8_70M63.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/fir8_72M.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/multiplier.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/PARA_RAM.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/ram_para_all_V2.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/rgmii.ncf}] -fileset [get_property constrset [current_run]]
+add_files [list {ipcore_dir/ROM_cos2400.ncf}] -fileset [get_property constrset [current_run]]
+set_property target_constrs_file "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/constraints/fpga.ucf" [current_fileset -constrset]
+add_files [list {/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/constraints/rgmii_example_design.ucf}] -fileset [get_property constrset [current_run]]
+add_files [list {/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/constraints/fpga.ucf}] -fileset [get_property constrset [current_run]]
+add_files [list {/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/constraints/ADC_Interface.ucf}] -fileset [get_property constrset [current_run]]
+link_design
+read_xdl -file "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/psr_ddc_150M_top.ncd"
+if {[catch {read_twx -name results_1 -file "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/psr_ddc_150M_top.twx"} eInfo]} {
+   puts "WARNING: there was a problem importing \"/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/psr_ddc_150M_top.twx\": $eInfo"
+}

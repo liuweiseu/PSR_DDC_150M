@@ -1,0 +1,321 @@
+#********************************************************IODELAYCTRL LOC*******************************************************************************
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/IDELAYCTRL1" LOC = IDELAYCTRL_X0Y4;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/IDELAYCTRL1" LOC = IDELAYCTRL_X1Y4;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/IDELAYCTRL1" LOC = IDELAYCTRL_X0Y0;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/IDELAYCTRL1" LOC = IDELAYCTRL_X1Y0;
+
+#***********************************************************FDRE LOC***********************************************************************************
+#Channel_A
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" LOC = SLICE_X0Y182;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" LOC = SLICE_X0Y183;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" LOC = SLICE_X0Y176;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" LOC = SLICE_X0Y177;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" LOC = SLICE_X0Y162;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" LOC = SLICE_X0Y163;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" LOC = SLICE_X0Y168;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" LOC = SLICE_X0Y169;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" LOC = SLICE_X0Y196;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" LOC = SLICE_X0Y197;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" LOC = SLICE_X0Y198;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" LOC = SLICE_X0Y199;
+
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" LOC = SLICE_X0Y184;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" LOC = SLICE_X0Y185;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" LOC = SLICE_X0Y194;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" LOC = SLICE_X0Y195;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" LOC = SLICE_X0Y192;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" LOC = SLICE_X0Y193;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" LOC = SLICE_X0Y164;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" LOC = SLICE_X0Y165;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" LOC = SLICE_X0Y188;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" LOC = SLICE_X0Y189;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" LOC = SLICE_X0Y174;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" LOC = SLICE_X0Y175;
+
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" LOC = SLICE_X0Y190;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" LOC = SLICE_X0Y191;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" LOC = SLICE_X0Y170;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" LOC = SLICE_X0Y171;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" LOC = SLICE_X0Y186;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" LOC = SLICE_X0Y187;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" LOC = SLICE_X0Y160;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" LOC = SLICE_X0Y161;
+
+#Channel_B
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" LOC = SLICE_X64Y182;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" LOC = SLICE_X64Y183;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" LOC = SLICE_X64Y178;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" LOC = SLICE_X64Y179;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" LOC = SLICE_X64Y180;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" LOC = SLICE_X64Y181;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" LOC = SLICE_X64Y198;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" LOC = SLICE_X64Y199;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" LOC = SLICE_X64Y196;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" LOC = SLICE_X64Y197;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" LOC = SLICE_X64Y164;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" LOC = SLICE_X64Y165;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" LOC = SLICE_X64Y192;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" LOC = SLICE_X64Y193;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" LOC = SLICE_X64Y172;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" LOC = SLICE_X64Y173;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" LOC = SLICE_X64Y188;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" LOC = SLICE_X64Y189;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" LOC = SLICE_X64Y190;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" LOC = SLICE_X64Y191;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" LOC = SLICE_X64Y160;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" LOC = SLICE_X64Y161;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" LOC = SLICE_X64Y162;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" LOC = SLICE_X64Y163;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" LOC = SLICE_X64Y184;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" LOC = SLICE_X64Y185;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" LOC = SLICE_X64Y166;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" LOC = SLICE_X64Y167;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" LOC = SLICE_X64Y174;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" LOC = SLICE_X64Y175;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" LOC = SLICE_X64Y194;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" LOC = SLICE_X64Y195;
+
+#Channel_C
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" LOC = SLICE_X64Y22;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" LOC = SLICE_X64Y23;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" LOC = SLICE_X64Y20;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" LOC = SLICE_X64Y21;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" LOC = SLICE_X64Y18;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" LOC = SLICE_X64Y19;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" LOC = SLICE_X64Y4;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" LOC = SLICE_X64Y5;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" LOC = SLICE_X64Y0;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" LOC = SLICE_X64Y1;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" LOC = SLICE_X64Y12;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" LOC = SLICE_X64Y13;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" LOC = SLICE_X64Y32;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" LOC = SLICE_X64Y33;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" LOC = SLICE_X64Y28;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" LOC = SLICE_X64Y29;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" LOC = SLICE_X64Y30;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" LOC = SLICE_X64Y31;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" LOC = SLICE_X64Y24;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" LOC = SLICE_X64Y25;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" LOC = SLICE_X64Y34;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" LOC = SLICE_X64Y35;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" LOC = SLICE_X64Y36;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" LOC = SLICE_X64Y37;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" LOC = SLICE_X64Y38;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" LOC = SLICE_X64Y39;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" LOC = SLICE_X64Y6;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" LOC = SLICE_X64Y7;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" LOC = SLICE_X64Y10;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" LOC = SLICE_X64Y11;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" LOC = SLICE_X64Y14;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" LOC = SLICE_X64Y15;
+
+#Channel_D
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" LOC = SLICE_X0Y22;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" LOC = SLICE_X0Y23;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[0].U_FDRE" LOC = SLICE_X0Y18;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[0].U_FDRE" LOC = SLICE_X0Y19;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" LOC = SLICE_X0Y38;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" LOC = SLICE_X0Y39;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[1].U_FDRE" LOC = SLICE_X0Y12;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[1].U_FDRE" LOC = SLICE_X0Y13;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" LOC = SLICE_X0Y36;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" LOC = SLICE_X0Y37;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[2].U_FDRE" LOC = SLICE_X0Y8;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[2].U_FDRE" LOC = SLICE_X0Y9;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" LOC = SLICE_X0Y28;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" LOC = SLICE_X0Y29;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[3].U_FDRE" LOC = SLICE_X0Y0;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[3].U_FDRE" LOC = SLICE_X0Y1;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" LOC = SLICE_X0Y14;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" LOC = SLICE_X0Y15;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[4].U_FDRE" LOC = SLICE_X0Y24;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[4].U_FDRE" LOC = SLICE_X0Y25;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" LOC = SLICE_X0Y34;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" LOC = SLICE_X0Y35;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[5].U_FDRE" LOC = SLICE_X0Y4;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[5].U_FDRE" LOC = SLICE_X0Y5;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" LOC = SLICE_X0Y2;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" LOC = SLICE_X0Y3;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[6].U_FDRE" LOC = SLICE_X0Y6;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[6].U_FDRE" LOC = SLICE_X0Y7;
+
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" LOC = SLICE_X0Y26;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_L/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" LOC = SLICE_X0Y27;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" BEL = D5FF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[0].u_adc_sync/[7].U_FDRE" LOC = SLICE_X0Y10;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" BEL = AFF;
+INST "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/u_adc_data_sync_H/adc_sync_fifo[1].u_adc_sync/[7].U_FDRE" LOC = SLICE_X0Y11;
+
+
+#********************************************************************TIG*******************************************************************************
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/rst_clk_iodelay_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/rst_clk_iodelay_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/rst_clk_iodelay_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/rst_clk_iodelay_sync" TIG;
+
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/rst_dat_iodelay_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/rst_dat_iodelay_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/rst_dat_iodelay_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/rst_dat_iodelay_sync" TIG;
+
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_A/rst_iserdes_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_B/rst_iserdes_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_C/rst_iserdes_sync" TIG;
+#NET "U1_adc_if_check_snap/U_adc_data_interface/u_adc_data_interface_one_core_D/rst_iserdes_sync" TIG;
+
+NET "*u_reset_sync_clk_iodelay/rst_out" TIG;
+NET "*u_reset_sync_data_iodelay/rst_out" TIG;
+NET "*u_reset_sync_data_iserdes/rst_out" TIG;
+NET "*u_reset_sync/rst_out" TIG;

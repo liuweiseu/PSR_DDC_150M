@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<DesignStrategy goal="Timing Performance" strategy="Performance with IOB Packing" version="12.1">
+
+  <Description>This timing performance strategy will try to achieve timing closure while packing registers into the IOBs if possible.  Use this strategy if in timing closure, your design has tight I/O timing requirements.  If you don't meet timing with this strategy, consider trying SmartXplorer.</Description>
+
+  <DeviceList devices="virtex6"/>
+
+  <Properties>
+    <property name="Synthesize - XST:Optimization Goal" value="Speed"/>
+    <property name="Synthesize - XST:Optimization Effort" value="High"/>
+    <property name="Synthesize - XST:Global Optimization Goal" value="Maximum Delay"/>
+    <property name="Synthesize - XST:Safe Implementation" value="Yes"/>
+    <property name="Synthesize - XST:Automatic BRAM Packing" value="false"/>
+    <property name="Synthesize - XST:Resource Sharing" value="true"/>
+    <property name="Synthesize - XST:Register Balancing" value="No"/>
+    <property name="Synthesize - XST:Pack I/O Registers into IOBs" value="Yes"/>
+    <property name="Synthesize - XST:LUT Combining" value="Area"/>
+    <property name="Synthesize - XST:Optimize Instantiated Primitives" value="false"/>
+    <property name="Translate:Use LOC Constraints" value="true"/>
+    <property name="Map:Placer Effort Level" value="High"/>
+    <property name="Map:Placer Extra Effort" value="Normal"/>
+    <property name="Map:Combinatorial Logic Optimization" value="true"/>
+    <property name="Map:Global Optimization" value="Speed"/>
+    <property name="Map:Pack I/O Registers/Latches into IOBs" value="For Inputs and Outputs"/>
+    <property name="Map:LUT Combining" value="Area"/>
+    <property name="Place &amp; Route:Place And Route Mode" value="Reentrant Route"/>
+    <property name="Place &amp; Route:Place &amp; Route Effort Level (Overall)" value="High"/>
+    <property name="Place &amp; Route:Extra Effort (Highest PAR level only)" value="Normal"/>
+  </Properties>
+
+</DesignStrategy>

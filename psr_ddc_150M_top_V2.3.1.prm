@@ -1,0 +1,14 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -u 0x0 psr_ddc_150M_top.bit -p bin -o psr_ddc_150M_top_V2.3.1.bin -w 
+
+PROM psr_ddc_150M_top_V2.3.1.prm map: Thu Dec  5 23:28:11 2019
+
+Format        Bin
+Size          8192K
+PROM start    00000000
+PROM end      007fffff
+
+        Addr1        Addr2                     Date File(s)
+     00000000     0064309b     Dec  5 23:27:24 2019 psr_ddc_150M_top.bit

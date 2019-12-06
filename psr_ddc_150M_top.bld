@@ -1,0 +1,1098 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+/home/wei/Software/ISE14.7/install/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+constraints/rgmii_example_design.ucf -uc constraints/fpga.ucf -uc
+constraints/ADC_Interface.ucf -p xc6vlx240t-ff1156-1 psr_ddc_150M_top.ngc
+psr_ddc_150M_top.ngd
+
+Reading NGO file
+"/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/psr_ddc_150M_top.ngc" ...
+Loading design module "ipcore_dir/adc_snap_ram_psr.ngc"...
+Loading design module "ipcore_dir/rgmii.ngc"...
+Loading design module "ipcore_dir/RAM_ethernet.ngc"...
+Loading design module "ipcore_dir/ram_acc.ngc"...
+Loading design module "ipcore_dir/adder_acc.ngc"...
+Loading design module "ipcore_dir/ARM_DATA.ngc"...
+Loading design module "ipcore_dir/PARA_RAM.ngc"...
+Loading design module "ipcore_dir/DISP_RAM.ngc"...
+Loading design module "ipcore_dir/FreqEqua_Multi.ngc"...
+Loading design module "ipcore_dir/Freq_Equa_Para.ngc"...
+Loading design module "ipcore_dir/DATA_ADJ.ngc"...
+Loading design module "ipcore_dir/DATA_ADJ_N.ngc"...
+Loading design module "ipcore_dir/DEDISP_FIFO.ngc"...
+Loading design module "ipcore_dir/mul.ngc"...
+Loading design module "ipcore_dir/ROM_cos2400.ngc"...
+Loading design module "ipcore_dir/ROM_sin2400.ngc"...
+Loading design module "ipcore_dir/Adder2.ngc"...
+Loading design module "ipcore_dir/Adder3.ngc"...
+Loading design module "ipcore_dir/Adder4.ngc"...
+Loading design module "ipcore_dir/fir8_72M.ngc"...
+Loading design module "ipcore_dir/fir7_72M.ngc"...
+Loading design module "ipcore_dir/fir6_72M.ngc"...
+Loading design module "ipcore_dir/fir5_72M.ngc"...
+Loading design module "ipcore_dir/fir4_72M.ngc"...
+Loading design module "ipcore_dir/fir3_72M.ngc"...
+Loading design module "ipcore_dir/fir2_72M.ngc"...
+Loading design module "ipcore_dir/fir1_72M.ngc"...
+Loading design module "ipcore_dir/DDC_FIFO.ngc"...
+Loading design module "ipcore_dir/fft_512.ngc"...
+Loading design module "ipcore_dir/multiplier.ngc"...
+Loading design module "ipcore_dir/adder.ngc"...
+Loading design module "ipcore_dir/subber.ngc"...
+Loading design module "ipcore_dir/ram_para.ngc"...
+Loading design module "ipcore_dir/ram_para_all_V2.ngc"...
+Loading design module "ipcore_dir/Power_Adder.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"constraints/rgmii_example_design.ucf" ...
+Annotating constraints to design from ucf file "constraints/fpga.ucf" ...
+Annotating constraints to design from ucf file "constraints/ADC_Interface.ucf"
+...
+WARNING:NgdBuild - The value of SIM_DEVICE on instance
+   'U12/v6emac_fifo_block/v6emac_block/rgmii_interface/bufio_rgmii_rx_clk' of
+   type BUFR has been changed from 'VIRTEX4' to 'VIRTEX6' to correct
+   post-ngdbuild and timing simulation for this primitive.  In order for
+   functional simulation to be correct, the value of SIM_DEVICE should be
+   changed in this same manner in the source netlist or constraint file.
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_clock_path_gtx2cpu = FROM
+   "clock_generator_clkout0" TO "clock_generator_clkout1" TIG ;>
+   [constraints/rgmii_example_design.ucf(183)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout0'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_clock_path_gtx2cpu = FROM
+   "clock_generator_clkout0" TO "clock_generator_clkout1" TIG ;>
+   [constraints/rgmii_example_design.ucf(183)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout1'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_clock_path_gtx2ref = FROM
+   "clock_generator_clkout0" TO "clock_generator_clkout2" TIG ;>
+   [constraints/rgmii_example_design.ucf(184)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout0'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_clock_path_gtx2ref = FROM
+   "clock_generator_clkout0" TO "clock_generator_clkout2" TIG ;>
+   [constraints/rgmii_example_design.ucf(184)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout2'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_clock_path_cpu2gtx = FROM
+   "clock_generator_clkout1" TO "clock_generator_clkout0" TIG ;>
+   [constraints/rgmii_example_design.ucf(185)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout1'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_clock_path_cpu2gtx = FROM
+   "clock_generator_clkout1" TO "clock_generator_clkout0" TIG ;>
+   [constraints/rgmii_example_design.ucf(185)]: Unable to find an active
+   'TimeGrp' or 'TNM' or 'TPSync' constraint named 'clock_generator_clkout0'.
+
+WARNING:ConstraintSystem - TNM : SYS_CLK was distributed to a DCM but new TNM
+   constraints were not derived. The requirement for derived TNM constraints is
+   that the distributed TNM is referenced by no more than a single PERIOD
+   constraint. Non-PERIOD referencers are also not allowed. This TNM is used in
+   the following user groups or specifications:
+   <TIMESPEC TS_SYS_CLK = PERIOD "SYS_CLK" 3.333 ns HIGH 50 %;>
+   [constraints/fpga.ucf(313)]
+   <TIMESPEC TS_CLK_BUS_CLK = FROM "BUS_CLK" TO "SYS_CLK" TIG ;>
+   [constraints/fpga.ucf(314)]
+   <TIMESPEC TS_BUS_CLK_CLK = FROM "SYS_CLK" TO "BUS_CLK" 15ns ;>
+   [constraints/fpga.ucf(315)]
+   <TIMESPEC TS_CLK_CLK_30M = FROM "SYS_CLK" TO "CLK_30M" TIG ;>
+   [constraints/fpga.ucf(319)]
+   <TIMESPEC TS_CLK_30M_CLK = FROM "CLK_30M" TO "SYS_CLK" TIG ;>
+   [constraints/fpga.ucf(320)]
+   <TIMESPEC TS_CLK_CLK_150M = FROM "SYS_CLK" TO "CLK_150M" 6.666ns ;>
+   [constraints/fpga.ucf(324)]
+
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_v6_emac_gmii_core_clk_in', was traced into MMCM_ADV instance
+   mmcm_adv_inst. The following new TNM groups and period specifications were
+   generated at the MMCM_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_U12_clock_generator_clkout1 = PERIOD
+   "U12_clock_generator_clkout1" TS_v6_emac_gmii_core_clk_in / 5 HIGH 50%
+   INPUT_JITTER 50 ps>
+
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_v6_emac_gmii_core_clk_in', was traced into MMCM_ADV instance
+   mmcm_adv_inst. The following new TNM groups and period specifications were
+   generated at the MMCM_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_U12_clock_generator_clkout0 = PERIOD
+   "U12_clock_generator_clkout0" TS_v6_emac_gmii_core_clk_in / 6.25 HIGH 50%
+   INPUT_JITTER 50 ps>
+
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_v6_emac_gmii_core_clk_in', was traced into MMCM_ADV instance
+   mmcm_adv_inst. The following new TNM groups and period specifications were
+   generated at the MMCM_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_U12_clock_generator_clkout2 = PERIOD
+   "U12_clock_generator_clkout2" TS_v6_emac_gmii_core_clk_in / 10 HIGH 50%
+   INPUT_JITTER 50 ps>
+
+INFO:ConstraintSystem:178 - TNM 'clk_n', used in period specification
+   'TS_clk_n', was traced into MMCM_ADV instance mmcm_adv_inst. The following
+   new TNM groups and period specifications were generated at the MMCM_ADV
+   output(s): 
+   CLKOUT3: <TIMESPEC TS_U0_CLK_RESET_INTERFACE_U0_clkout3 = PERIOD
+   "U0_CLK_RESET_INTERFACE_U0_clkout3" TS_clk_n / 0.5 PHASE -1.6665 ns LOW 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_n', used in period specification
+   'TS_clk_n', was traced into MMCM_ADV instance mmcm_adv_inst. The following
+   new TNM groups and period specifications were generated at the MMCM_ADV
+   output(s): 
+   CLKOUT1: <TIMESPEC TS_U0_CLK_RESET_INTERFACE_U0_clkout1 = PERIOD
+   "U0_CLK_RESET_INTERFACE_U0_clkout1" TS_clk_n / 0.1 PHASE -14.9985 ns LOW 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_n', used in period specification
+   'TS_clk_n', was traced into MMCM_ADV instance mmcm_adv_inst. The following
+   new TNM groups and period specifications were generated at the MMCM_ADV
+   output(s): 
+   CLKOUT2: <TIMESPEC TS_U0_CLK_RESET_INTERFACE_U0_clkout2 = PERIOD
+   "U0_CLK_RESET_INTERFACE_U0_clkout2" TS_clk_n LOW 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_p', used in period specification
+   'TS_clk_p', was traced into MMCM_ADV instance mmcm_adv_inst. The following
+   new TNM groups and period specifications were generated at the MMCM_ADV
+   output(s): 
+   CLKOUT3: <TIMESPEC TS_U0_CLK_RESET_INTERFACE_U0_clkout3_0 = PERIOD
+   "U0_CLK_RESET_INTERFACE_U0_clkout3_0" TS_clk_p / 0.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_p', used in period specification
+   'TS_clk_p', was traced into MMCM_ADV instance mmcm_adv_inst. The following
+   new TNM groups and period specifications were generated at the MMCM_ADV
+   output(s): 
+   CLKOUT1: <TIMESPEC TS_U0_CLK_RESET_INTERFACE_U0_clkout1_0 = PERIOD
+   "U0_CLK_RESET_INTERFACE_U0_clkout1_0" TS_clk_p / 0.1 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_p', used in period specification
+   'TS_clk_p', was traced into MMCM_ADV instance mmcm_adv_inst. The following
+   new TNM groups and period specifications were generated at the MMCM_ADV
+   output(s): 
+   CLKOUT2: <TIMESPEC TS_U0_CLK_RESET_INTERFACE_U0_clkout2_0 = PERIOD
+   "U0_CLK_RESET_INTERFACE_U0_clkout2_0" TS_clk_p HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'U0_CLK_RESET_INTERFACE_U0_clkout2', used in
+   period specification 'TS_U0_CLK_RESET_INTERFACE_U0_clkout2', was traced into
+   MMCM_ADV instance mmcm_adv_inst. The following new TNM groups and period
+   specifications were generated at the MMCM_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_U1_adc_if_check_snap_U_refclk_gen_clkout0 = PERIOD
+   "U1_adc_if_check_snap_U_refclk_gen_clkout0"
+   TS_U0_CLK_RESET_INTERFACE_U0_clkout2 / 0.666666667 PHASE -0.83325 ns LOW 50%>
+
+INFO:ConstraintSystem:178 - TNM 'U0_CLK_RESET_INTERFACE_U0_clkout2_0', used in
+   period specification 'TS_U0_CLK_RESET_INTERFACE_U0_clkout2_0', was traced
+   into MMCM_ADV instance mmcm_adv_inst. The following new TNM groups and period
+   specifications were generated at the MMCM_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_U1_adc_if_check_snap_U_refclk_gen_clkout0_0 = PERIOD
+   "U1_adc_if_check_snap_U_refclk_gen_clkout0_0"
+   TS_U0_CLK_RESET_INTERFACE_U0_clkout2_0 / 0.666666667 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_R/U_fir1/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_R/U_fir2/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_R/U_fir3/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_R/U_fir4/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_R/U_fir5/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_R/U_fir6/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_R/U_fir7/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_R/U_fir8/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_L/U_fir1/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_L/U_fir2/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_L/U_fir3/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_L/U_fir4/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_L/U_fir5/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_L/U_fir6/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_L/U_fir7/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_2400to150_L/U_fir8/blk00000003/blk00000014' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk0000007d' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk0000007e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000124' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000129' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk0000012e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000145' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk0000015c' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000187' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk0000019e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000002b8' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000002b9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000641' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000642' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000b2b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000b61' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000e13' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000e14' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000e15' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000e16' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000e17' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00000e18' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010d8' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010d9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010da' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010db' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010dc' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010dd' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010de' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000012f3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000012f4' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000012f5' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000012f6' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000012f7' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000016f4' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk0000172e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000020c9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00002107' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00002234' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00002237' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00002238' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00002239' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00002ab3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00002af5' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk0000007d' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk0000007e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000124' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000129' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk0000012e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000145' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk0000015c' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000187' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk0000019e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000002b8' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000002b9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000641' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000642' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000b2b' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000b61' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000e13' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000e14' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000e15' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000e16' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000e17' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00000e18' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010d8' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010d9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010da' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010db' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010dc' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010dd' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010de' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000012f3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000012f4' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000012f5' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000012f6' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000012f7' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000016f4' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk0000172e' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000020c9' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00002107' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00002234' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00002237' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00002238' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00002239' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00002ab3' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00002af5' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'ADC_RD_BACK<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'CLK_RD_BACK<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<47>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<46>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<45>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<44>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<43>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<42>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<41>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<40>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<39>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<38>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<37>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<36>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<34>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<32>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_PRE<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<47>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<46>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<45>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<44>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<43>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<42>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<41>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<40>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<39>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<38>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<37>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<36>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<34>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<32>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_PRE<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<47>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<46>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<45>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<44>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<43>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<42>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<41>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<40>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<39>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<38>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<37>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<36>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<34>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<32>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_PRE<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<47>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<46>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<45>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<44>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<43>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<42>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<41>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<40>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<39>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<38>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<37>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<36>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<34>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<32>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_PRE<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_I_AFT<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_Q_AFT<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_U_AFT<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'MAX_V_AFT<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'power_com_out<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'power_com_out<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'power_com_out<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'power_com_out<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'power_com_out<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'power_com_out<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'power_com_out<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'power_com_out<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'max_ddc_L<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'max_ddc_R<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'out_RR0<47>' has no driver
+WARNING:NgdBuild:452 - logical net 'out_LL0<47>' has no driver
+WARNING:NgdBuild:452 - logical net 'cnt_sync_PowerOut<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'cnt_sync_PowerOut<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'cnt_sync_PowerOut<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'N19' has no driver
+WARNING:NgdBuild:452 - logical net 'N20' has no driver
+WARNING:NgdBuild:452 - logical net 'N21' has no driver
+WARNING:NgdBuild:452 - logical net 'N22' has no driver
+WARNING:NgdBuild:452 - logical net 'N23' has no driver
+WARNING:NgdBuild:452 - logical net 'N24' has no driver
+WARNING:NgdBuild:452 - logical net 'N25' has no driver
+WARNING:NgdBuild:452 - logical net 'N26' has no driver
+WARNING:NgdBuild:452 - logical net 'N27' has no driver
+WARNING:NgdBuild:452 - logical net 'N28' has no driver
+WARNING:NgdBuild:452 - logical net 'N29' has no driver
+WARNING:NgdBuild:452 - logical net 'N30' has no driver
+WARNING:NgdBuild:452 - logical net 'N31' has no driver
+WARNING:NgdBuild:452 - logical net 'N32' has no driver
+WARNING:NgdBuild:452 - logical net 'N33' has no driver
+WARNING:NgdBuild:452 - logical net 'N34' has no driver
+WARNING:NgdBuild:452 - logical net 'U1_adc_if_check_snap/idelayctrl_rdy' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'U12/mode_sel<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/mode_sel<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/mode_sel<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/mode_sel<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/mode_sel<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/mode_sel<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/mode_sel<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/mode_sel<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rdata<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_arready' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/s_axi_rvalid' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'U12/page_read<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/tx_fifo_status<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/tx_fifo_status<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/tx_fifo_status<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/tx_fifo_status<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/tx_fifo_overflow' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/rx_fifo_status<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/rx_fifo_status<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/rx_fifo_status<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/rx_fifo_status<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/rx_axis_mac_tready' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/user_side_FIFO/rx_fifo_overflow' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/v6emac_block/axi_lite_ipif/axi_lite_top/Bus2IP_BE<3>'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/v6emac_block/axi_lite_ipif/axi_lite_top/Bus2IP_BE<2>'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/v6emac_block/axi_lite_ipif/axi_lite_top/Bus2IP_BE<1>'
+   has no driver
+WARNING:NgdBuild:452 - logical net
+   'U12/v6emac_fifo_block/v6emac_block/axi_lite_ipif/axi_lite_top/Bus2IP_BE<0>'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/cnt_sync_out<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'U2_FREQEQUA_R/en_sync_out' has no driver
+WARNING:NgdBuild:452 - logical net 'U13/VP_IN' has no driver
+WARNING:NgdBuild:452 - logical net 'U13/VN_IN' has no driver
+WARNING:NgdBuild:452 - logical net 'U8_de_disp/mydispram/rstb' has no driver
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig0000030f" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig000004b9" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00000496" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00000495" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig000004b8" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00000cc3" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00000ca3" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00000ca2" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00000cc2" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010b7/sig00003603' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010b7/sig00003604' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010b7/sig00003606' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010b7/sig00003607' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010b7/sig00003608' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk000010b7/sig00003609' has no driver
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig0000154e" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig0000152c" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig0000152b" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig0000154d" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00001b4f/sig00003dbb' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00001b4f/sig00003dbc' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00001b4f/sig00003dbe' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00001b4f/sig00003dbf' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00001b6a/sig00003dec' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00001b6a/sig00003ded' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk00001b6a/sig00003dee' has no driver
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00001e53" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00001e2f" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00001e2e" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_R/blk00000001/sig00001e52" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk0000257a/sig0000432f' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_R/blk00000001/blk0000257a/sig00004330' has no driver
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig0000030f" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig000004b9" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00000496" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00000495" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig000004b8" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00000cc3" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00000ca3" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00000ca2" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00000cc2" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010b7/sig00003603' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010b7/sig00003604' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010b7/sig00003606' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010b7/sig00003607' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010b7/sig00003608' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk000010b7/sig00003609' has no driver
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig0000154e" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig0000152c" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig0000152b" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig0000154d" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00001b4f/sig00003dbb' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00001b4f/sig00003dbc' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00001b4f/sig00003dbe' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00001b4f/sig00003dbf' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00001b6a/sig00003dec' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00001b6a/sig00003ded' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk00001b6a/sig00003dee' has no driver
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00001e53" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00001e2f" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00001e2e" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:483 - Attribute "INIT" on
+   "U2_fft_150M/FFT_150M_L/blk00000001/sig00001e52" is on the wrong type of
+   object.  Please see the Constraints Guide for more information on this
+   attribute.
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk0000257a/sig0000432f' has no driver
+WARNING:NgdBuild:452 - logical net
+   'U2_fft_150M/FFT_150M_L/blk00000001/blk0000257a/sig00004330' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 637
+
+Total memory usage is 774064 kilobytes
+
+Writing NGD file "psr_ddc_150M_top.ngd" ...
+Total REAL time to NGDBUILD completion:  53 sec
+Total CPU time to NGDBUILD completion:   53 sec
+
+Writing NGDBUILD log file "psr_ddc_150M_top.bld"...

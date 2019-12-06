@@ -1,0 +1,372 @@
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design psr_ddc_150M_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to psr_ddc_150M_top.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO15 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO15 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO15 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block
+   NCO_MUL_CHANNEL_NO15 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO15 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO14 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO14 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO14 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block
+   NCO_MUL_CHANNEL_NO14 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO14 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO13 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO13 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO13 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block
+   NCO_MUL_CHANNEL_NO13 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO13 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO12 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO12 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO12 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block
+   NCO_MUL_CHANNEL_NO12 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO12 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO11 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO11 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO11 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block
+   NCO_MUL_CHANNEL_NO11 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO11 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO10 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO10 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO10 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block
+   NCO_MUL_CHANNEL_NO10 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO10 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO9 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO9 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO9 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO9
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO9 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO8 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO8 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO8 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO8
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO8 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0138<12 : 1> on block nco_2400M_NO1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0143<12 : 0> on block nco_2400M_NO1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0148<12 : 0> on block nco_2400M_NO1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0153<12 : 0> on block nco_2400M_NO1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0158<12 : 0> on block nco_2400M_NO1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0163<12 : 0> on block nco_2400M_NO1 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_35_OUT_lut<11
+   : 6> on block nco_2400M_NO1 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_41_OUT_lut<11
+   : 6> on block nco_2400M_NO1 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_47_OUT_lut<11
+   : 6> on block nco_2400M_NO1 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_53_OUT_lut<11
+   : 6> on block nco_2400M_NO1 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_59_OUT_lut<11
+   : 6> on block nco_2400M_NO1 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_65_OUT_lut<11
+   : 6> on block nco_2400M_NO1 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO7 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO7 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO7 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO7
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO7 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO6 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO6 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO6 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO6
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO6 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO5 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO5 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO5 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO5
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO5 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO4 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO4 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO4 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO4
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO4 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO3 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO3 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO3
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO2 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO2 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO2
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block
+   NCO_MUL_CHANNEL_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL_NO1 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL_NO1 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block
+   NCO_MUL_CHANNEL_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus n0029<10 : 0> on block NCO_MUL_CHANNEL
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_cy<11 :
+   0> on block NCO_MUL_CHANNEL is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_49_o_GND_49_o_sub_3_OUT_lut<10
+   : 3> on block NCO_MUL_CHANNEL is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_cy<9 : 5> on block NCO_MUL_CHANNEL is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_49_o_GND_49_o_sub_6_OUT<11:0>_lut<11 : 6> on block NCO_MUL_CHANNEL
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0138<12 : 1> on block nco_2400M is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0143<12 : 0> on block nco_2400M is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0148<12 : 0> on block nco_2400M is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0153<12 : 0> on block nco_2400M is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0158<12 : 0> on block nco_2400M is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0163<12 : 0> on block nco_2400M is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_35_OUT_lut<11
+   : 6> on block nco_2400M is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_41_OUT_lut<11
+   : 6> on block nco_2400M is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_47_OUT_lut<11
+   : 6> on block nco_2400M is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_53_OUT_lut<11
+   : 6> on block nco_2400M is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_59_OUT_lut<11
+   : 6> on block nco_2400M is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_GND_48_o_GND_48_o_sub_65_OUT_lut<11
+   : 6> on block nco_2400M is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus addr[8 : 2] on block axi_lite_sm is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_wr_data[31 : 0] on block axi_lite_sm
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus axi_wr_data[31]_GND_132_o_mux_79_OUT[31
+   : 0] on block axi_lite_sm is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_132_o_GND_132_o_mux_72_OUT[10 : 2]
+   on block axi_lite_sm is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus axi_state[4]_addr[10]_select_32_OUT[8 :
+   2] on block axi_lite_sm is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   axi_state[4]_axi_wr_data[31]_select_33_OUT[31 : 0] on block axi_lite_sm is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tx_statistics_vector_reg[31 : 0] on
+   block vector_decode is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus rx_statistics_vector_reg[26 : 0] on
+   block vector_decode is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus bus2ip_addr_reg<10 : 2> on block
+   slave_attachment is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus bus2ip_addr_i<10 : 2> on block
+   slave_attachment is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus wr_rd_addr<11 : 0> on block
+   rx_client_fifo_8 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Maccum_rd_addr_lut<11 : 0> on block
+   rx_client_fifo_8 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Maccum_wr_frames_lut<7 : 0> on block
+   tx_client_fifo_8 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus FREQEQUA_EN<12 : 0> on block
+   psr_ddc_150M_top is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file psr_ddc_150M_top.edif ...
+ngc2edif: Total memory usage is 151276 kilobytes
+

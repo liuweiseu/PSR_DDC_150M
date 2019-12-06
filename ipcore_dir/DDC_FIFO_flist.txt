@@ -1,0 +1,16 @@
+# Output products list for <DDC_FIFO>
+DDC_FIFO/doc/fifo_generator_v9_3_readme.txt
+DDC_FIFO/doc/fifo_generator_v9_3_vinfo.html
+DDC_FIFO/doc/pg057-fifo-generator.pdf
+DDC_FIFO/fifo_generator_v9_3_readme.txt
+DDC_FIFO.asy
+DDC_FIFO.gise
+DDC_FIFO.ngc
+DDC_FIFO.sym
+DDC_FIFO.v
+DDC_FIFO.veo
+DDC_FIFO.xco
+DDC_FIFO.xise
+DDC_FIFO_flist.txt
+DDC_FIFO_xmdf.tcl
+_xmsgs/pn_parser.xmsgs

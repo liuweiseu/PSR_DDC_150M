@@ -1,0 +1,15 @@
+# Output products list for <DATA_ADJ>
+DATA_ADJ.asy
+DATA_ADJ.gise
+DATA_ADJ.ngc
+DATA_ADJ.sym
+DATA_ADJ.v
+DATA_ADJ.veo
+DATA_ADJ.xco
+DATA_ADJ.xise
+DATA_ADJ\doc\mult_gen_ds255.pdf
+DATA_ADJ\doc\mult_gen_v11_2_readme.txt
+DATA_ADJ\doc\mult_gen_v11_2_vinfo.html
+DATA_ADJ_flist.txt
+DATA_ADJ_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

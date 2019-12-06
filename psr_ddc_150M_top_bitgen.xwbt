@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/psr_ddc_150M_top.ncd
+OUTFILE=/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0/psr_ddc_150M_top.bit
+FAMILY=Virtex6
+PART=xc6vlx240t-1ff1156
+WORKINGDIR=/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.0
+LICENSE=ISE
+USER_INFO=__0_0_0

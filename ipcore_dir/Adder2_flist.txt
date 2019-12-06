@@ -1,0 +1,15 @@
+# Output products list for <Adder2>
+Adder2.asy
+Adder2.gise
+Adder2.ngc
+Adder2.sym
+Adder2.v
+Adder2.veo
+Adder2.xco
+Adder2.xise
+Adder2\doc\c_addsub_v11_0_readme.txt
+Adder2\doc\c_addsub_v11_0_vinfo.html
+Adder2\doc\ds214_addsub.pdf
+Adder2_flist.txt
+Adder2_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

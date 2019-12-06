@@ -1,0 +1,15 @@
+# Output products list for <Power_Adder>
+Power_Adder.asy
+Power_Adder.gise
+Power_Adder.ngc
+Power_Adder.sym
+Power_Adder.v
+Power_Adder.veo
+Power_Adder.xco
+Power_Adder.xise
+Power_Adder\doc\c_addsub_v11_0_readme.txt
+Power_Adder\doc\c_addsub_v11_0_vinfo.html
+Power_Adder\doc\ds214_addsub.pdf
+Power_Adder_flist.txt
+Power_Adder_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

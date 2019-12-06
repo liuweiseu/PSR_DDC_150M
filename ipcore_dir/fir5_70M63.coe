@@ -1,0 +1,11 @@
+Radix = 10;
+Coefficient_Width = 12;
+CoefData = 
+5,
+38,
+254,
+4095,
+3539,
+100,
+43,
+2,

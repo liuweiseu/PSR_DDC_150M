@@ -1,0 +1,2 @@
+verilog work ../../clk_bus.v
+verilog work ../example_design/clk_bus_exdes.v

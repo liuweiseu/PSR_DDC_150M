@@ -1,0 +1,15 @@
+# Output products list for <fft_512>
+_xmsgs/pn_parser.xmsgs
+fft_512/doc/xfft_ds260.pdf
+fft_512/doc/xfft_v7_1_readme.txt
+fft_512/doc/xfft_v7_1_vinfo.html
+fft_512.asy
+fft_512.gise
+fft_512.ngc
+fft_512.sym
+fft_512.v
+fft_512.veo
+fft_512.xco
+fft_512.xise
+fft_512_flist.txt
+fft_512_xmdf.tcl

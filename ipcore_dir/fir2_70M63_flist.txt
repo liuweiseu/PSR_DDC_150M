@@ -1,0 +1,19 @@
+# Output products list for <fir2_70M63>
+_xmsgs\pn_parser.xmsgs
+fir2_70M63.asy
+fir2_70M63.gise
+fir2_70M63.mif
+fir2_70M63.ngc
+fir2_70M63.sym
+fir2_70M63.v
+fir2_70M63.veo
+fir2_70M63.xco
+fir2_70M63.xise
+fir2_70M63COEFF_auto0_0.mif
+fir2_70M63COEFF_auto0_1.mif
+fir2_70M63COEFF_auto0_2.mif
+fir2_70M63COEFF_auto0_3.mif
+fir2_70M63_flist.txt
+fir2_70M63_readme.txt
+fir2_70M63_xmdf.tcl
+fir2_70M63filt_decode_rom.mif

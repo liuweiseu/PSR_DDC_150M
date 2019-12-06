@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NetListWriters" num="298" delta="new" >No output is written to <arg fmt="%s" index="1">psr_ddc_150M_top.xncf</arg>, ignored.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO15</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO15</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO15</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO15</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO15</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO14</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO14</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO14</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO14</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO14</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO13</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO13</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO13</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO13</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO13</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO12</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO12</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO12</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO12</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO12</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO11</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO11</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO11</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO11</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO11</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO10</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO10</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO10</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO10</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO10</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO9</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO9</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO9</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO9</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO9</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO8</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO8</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO8</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO8</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO8</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0138</arg><arg fmt="%s" index="2">&lt;12 : 1&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0143</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0148</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0153</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0158</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0163</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_35_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_41_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_47_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_53_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_59_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_65_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO7</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO7</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO7</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO7</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO7</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO6</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO6</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO6</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO6</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO6</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO5</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO5</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO5</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO5</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO5</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO4</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO4</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO4</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO4</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO4</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO3</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO3</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO3</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO3</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO3</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO2</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO2</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO2</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO2</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO2</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL_NO1</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0029</arg><arg fmt="%s" index="2">&lt;10 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_cy</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_3_OUT_lut</arg><arg fmt="%s" index="2">&lt;10 : 3&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_cy</arg><arg fmt="%s" index="2">&lt;9 : 5&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_49_o_GND_49_o_sub_6_OUT&lt;11:0&gt;_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">NCO_MUL_CHANNEL</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0138</arg><arg fmt="%s" index="2">&lt;12 : 1&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0143</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0148</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0153</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0158</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">n0163</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_35_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_41_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_47_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_53_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_59_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Msub_GND_48_o_GND_48_o_sub_65_OUT_lut</arg><arg fmt="%s" index="2">&lt;11 : 6&gt;</arg> on block <arg fmt="%s" index="3">nco_2400M</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">addr</arg><arg fmt="%s" index="2">[8 : 2]</arg> on block <arg fmt="%s" index="3">axi_lite_sm</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">axi_wr_data</arg><arg fmt="%s" index="2">[31 : 0]</arg> on block <arg fmt="%s" index="3">axi_lite_sm</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">axi_wr_data[31]_GND_132_o_mux_79_OUT</arg><arg fmt="%s" index="2">[31 : 0]</arg> on block <arg fmt="%s" index="3">axi_lite_sm</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">GND_132_o_GND_132_o_mux_72_OUT</arg><arg fmt="%s" index="2">[10 : 2]</arg> on block <arg fmt="%s" index="3">axi_lite_sm</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">axi_state[4]_addr[10]_select_32_OUT</arg><arg fmt="%s" index="2">[8 : 2]</arg> on block <arg fmt="%s" index="3">axi_lite_sm</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">axi_state[4]_axi_wr_data[31]_select_33_OUT</arg><arg fmt="%s" index="2">[31 : 0]</arg> on block <arg fmt="%s" index="3">axi_lite_sm</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">tx_statistics_vector_reg</arg><arg fmt="%s" index="2">[31 : 0]</arg> on block <arg fmt="%s" index="3">vector_decode</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">rx_statistics_vector_reg</arg><arg fmt="%s" index="2">[26 : 0]</arg> on block <arg fmt="%s" index="3">vector_decode</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">bus2ip_addr_reg</arg><arg fmt="%s" index="2">&lt;10 : 2&gt;</arg> on block <arg fmt="%s" index="3">slave_attachment</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">bus2ip_addr_i</arg><arg fmt="%s" index="2">&lt;10 : 2&gt;</arg> on block <arg fmt="%s" index="3">slave_attachment</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">wr_rd_addr</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">rx_client_fifo_8</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_rd_addr_lut</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">rx_client_fifo_8</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">Maccum_wr_frames_lut</arg><arg fmt="%s" index="2">&lt;7 : 0&gt;</arg> on block <arg fmt="%s" index="3">tx_client_fifo_8</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">FREQEQUA_EN</arg><arg fmt="%s" index="2">&lt;12 : 0&gt;</arg> on block <arg fmt="%s" index="3">psr_ddc_150M_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+</messages>
+

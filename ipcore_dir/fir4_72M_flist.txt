@@ -1,0 +1,19 @@
+# Output products list for <fir4_72M>
+_xmsgs\pn_parser.xmsgs
+fir4_72M.asy
+fir4_72M.gise
+fir4_72M.mif
+fir4_72M.ngc
+fir4_72M.sym
+fir4_72M.v
+fir4_72M.veo
+fir4_72M.xco
+fir4_72M.xise
+fir4_72MCOEFF_auto0_0.mif
+fir4_72MCOEFF_auto0_1.mif
+fir4_72MCOEFF_auto0_2.mif
+fir4_72MCOEFF_auto0_3.mif
+fir4_72M_flist.txt
+fir4_72M_readme.txt
+fir4_72M_xmdf.tcl
+fir4_72Mfilt_decode_rom.mif

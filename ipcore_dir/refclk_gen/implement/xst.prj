@@ -1,0 +1,2 @@
+verilog work ../../refclk_gen.v
+verilog work ../example_design/refclk_gen_exdes.v

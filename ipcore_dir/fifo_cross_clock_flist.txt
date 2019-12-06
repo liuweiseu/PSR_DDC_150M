@@ -1,0 +1,16 @@
+# Output products list for <fifo_cross_clock>
+_xmsgs/pn_parser.xmsgs
+fifo_cross_clock/doc/fifo_generator_v9_3_readme.txt
+fifo_cross_clock/doc/fifo_generator_v9_3_vinfo.html
+fifo_cross_clock/doc/pg057-fifo-generator.pdf
+fifo_cross_clock/fifo_generator_v9_3_readme.txt
+fifo_cross_clock.asy
+fifo_cross_clock.gise
+fifo_cross_clock.ngc
+fifo_cross_clock.sym
+fifo_cross_clock.v
+fifo_cross_clock.veo
+fifo_cross_clock.xco
+fifo_cross_clock.xise
+fifo_cross_clock_flist.txt
+fifo_cross_clock_xmdf.tcl

@@ -1,0 +1,15 @@
+# Output products list for <Adder4>
+Adder4.asy
+Adder4.gise
+Adder4.ngc
+Adder4.sym
+Adder4.v
+Adder4.veo
+Adder4.xco
+Adder4.xise
+Adder4\doc\c_addsub_v11_0_readme.txt
+Adder4\doc\c_addsub_v11_0_vinfo.html
+Adder4\doc\ds214_addsub.pdf
+Adder4_flist.txt
+Adder4_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
