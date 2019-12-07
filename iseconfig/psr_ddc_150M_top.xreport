@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-12-06T11:12:12</DateModified>
+  <DateModified>2019-12-07T14:00:24</DateModified>
   <ModuleName>psr_ddc_150M_top</ModuleName>
-  <SummaryTimeStamp>2019-12-05T23:53:08</SummaryTimeStamp>
-  <SavedFilePath>/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.4/iseconfig/psr_ddc_150M_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.4/</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2019-12-07T13:59:16</SummaryTimeStamp>
+  <SavedFilePath>/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/iseconfig/psr_ddc_150M_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/</ImplementationReportsDirectory>
   <DateInitialized>2019-11-28T15:52:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,17 +1,16 @@
 Release 14.7 - par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Fri Dec  6 10:00:57 2019
+Sat Dec  7 13:57:42 2019
 
 All signals are completely routed.
 
-WARNING:ParHelpers:361 - There are 340 loadless signals in this design. This design will cause Bitgen to issue DRC
+WARNING:ParHelpers:361 - There are 339 loadless signals in this design. This design will cause Bitgen to issue DRC
    warnings.
 
    BUS_ADDR<0>_IBUF
    BUS_IRQ_IBUF
    RST_SW_IBUF
-   U12/v6emac_fifo_block/v6emac_block/ip2bus_error
    U2_ddc_data_fifo/FIFO_L_I/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_D1_O
    U2_ddc_data_fifo/FIFO_L_I/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_D1_O
    U2_ddc_data_fifo/FIFO_L_I/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_D1_O

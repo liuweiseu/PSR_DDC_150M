@@ -264,7 +264,6 @@ CLK_RESET_INTERFACE U0_CLK_RESET_INTERFACE (
 //U1-ADCݽӿתģ
 //data_out_L1-L8data_out_R1-R8ǰʱȺ˳ȷ
 
-	wire ms_out;
 	wire      [ARM_BUS_DATA_WIDTH-1:0]                 adc_if_reset;
 	wire      [ARM_BUS_DATA_WIDTH-1:0]                 adc_if_state;
 	//A Channel
@@ -748,7 +747,7 @@ Pre_Digital_Gain #(
 )U4_Pre_Digital_Gain (
     .clk(clk_150M), 
     .rst(pps_out_pps_delay_8), 
-    .ms_in(ms_out), 
+    //.ms_in(ms_out), 
     .scaled_coeff_I(SCALED_COEFF_PRE_I), 
 	 .scaled_coeff_Q(SCALED_COEFF_PRE_Q), 
 	 .scaled_coeff_U(SCALED_COEFF_PRE_U), 
@@ -844,7 +843,7 @@ Aft_Digital_Gain #(
 )U6_Aft_Digital_Gain (
     .clk(clk_150M), 
     .rst(pps_out_pps_delay_6), 
-    .ms_in(ms_out), 
+    //.ms_in(ms_out), 
     .scaled_coeff_I(SCALED_COEFF_AFT_I), 
 	 .scaled_coeff_Q(SCALED_COEFF_AFT_Q), 
 	 .scaled_coeff_U(SCALED_COEFF_AFT_U), 

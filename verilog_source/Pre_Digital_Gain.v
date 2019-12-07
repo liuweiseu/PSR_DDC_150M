@@ -25,18 +25,18 @@ module Pre_Digital_Gain#(
 )(
 	input clk,
 	input rst,
-	input ms_in,
+	//input ms_in,
 	
-	input [15:0]scaled_coeff_I,	//系数输入
+	input [15:0]scaled_coeff_I,	//系
 	input [15:0]scaled_coeff_Q,
 	input [15:0]scaled_coeff_U,
 	input [15:0]scaled_coeff_V,
 	
-	input en_sync_in,					//同步信号输入
+	input en_sync_in,					//同藕
 //	input [(BITWIDTH-1):0]cnt_sync_in,
 	input [(BITWIDTH+1):0]cnt_sync_in,
 	
-	input [47:0]para_in_I0,			//数据输入
+	input [47:0]para_in_I0,			//
 //	input [47:0]para_in_I1,
 //	input [47:0]para_in_I2,
 //	input [47:0]para_in_I3,
@@ -85,7 +85,7 @@ module Pre_Digital_Gain#(
 	output [47:0]max_U,
 	output [47:0]max_V
     );
-//I参数增益控制，从那个48bit里选出16bit
+//I疲歉48bit选16bit
 Digital_Gain_48bit #(
 	 .BITWIDTH(BITWIDTH),
 	 .FFT_POINT(FFT_POINT),
@@ -93,7 +93,7 @@ Digital_Gain_48bit #(
 )Digital_Gain_I (
     .clk(clk), 
     .rst(rst), 
-    .ms_in(ms_in), 
+    //.ms_in(ms_in), 
     .en_sync_in(en_sync_in), 
     .cnt_sync_in(cnt_sync_in), 
     .para_in0(para_in_I0), 
@@ -109,7 +109,7 @@ Digital_Gain_48bit #(
     .cnt_sync_out(cnt_sync_out), 
     .max(max_I)
     );
-//Q参数增益控制，从那个48bit里选出16bit
+//Q疲歉48bit选16bit
 Digital_Gain_48bit #(
 	 .BITWIDTH(BITWIDTH),
 	 .FFT_POINT(FFT_POINT),
@@ -117,7 +117,7 @@ Digital_Gain_48bit #(
 )Digital_Gain_Q (
     .clk(clk), 
     .rst(rst), 
-    .ms_in(ms_in), 
+    //.ms_in(ms_in), 
     .en_sync_in(en_sync_in), 
     .cnt_sync_in(cnt_sync_in), 
     .para_in0(para_in_Q0), 
@@ -133,7 +133,7 @@ Digital_Gain_48bit #(
     .cnt_sync_out(), 
     .max(max_Q)
     );
-//U参数增益控制，从那个48bit里选出16bit
+//U疲歉48bit选16bit
 Digital_Gain_48bit_neg #(
 	 .BITWIDTH(BITWIDTH),
 	 .FFT_POINT(FFT_POINT),
@@ -141,7 +141,7 @@ Digital_Gain_48bit_neg #(
 )Digital_Gain_U (
     .clk(clk), 
     .rst(rst), 
-    .ms_in(ms_in), 
+    //.ms_in(ms_in), 
     .en_sync_in(en_sync_in), 
     .cnt_sync_in(cnt_sync_in), 
     .para_in0(para_in_U0), 
@@ -157,7 +157,7 @@ Digital_Gain_48bit_neg #(
     .cnt_sync_out(), 
     .max(max_U)
     );
-//V参数增益控制，从那个48bit里选出16bit
+//V疲歉48bit选16bit
 Digital_Gain_48bit_neg #(
 	 .BITWIDTH(BITWIDTH),
 	 .FFT_POINT(FFT_POINT),
@@ -165,7 +165,7 @@ Digital_Gain_48bit_neg #(
 )Digital_Gain_V (
     .clk(clk), 
     .rst(rst), 
-    .ms_in(ms_in), 
+    //.ms_in(ms_in), 
     .en_sync_in(en_sync_in), 
     .cnt_sync_in(cnt_sync_in), 
     .para_in0(para_in_V0), 

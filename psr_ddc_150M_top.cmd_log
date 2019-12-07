@@ -52,3 +52,30 @@ map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt on -ol high -xe n -t 1 -x
 par -w -intstyle ise -ol high -xe n -mt off -k psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ncd psr_ddc_150M_top.pcf 
 trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml psr_ddc_150M_top.twx psr_ddc_150M_top.ncd -o psr_ddc_150M_top.twr psr_ddc_150M_top.pcf 
 bitgen -intstyle ise -f psr_ddc_150M_top.ut psr_ddc_150M_top.ncd 
+xst -intstyle ise -ifn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.xst" -ofn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.syr" 
+xst -intstyle ise -ifn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.xst" -ofn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.syr" 
+xst -intstyle ise -ifn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.xst" -ofn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints/rgmii_example_design.ucf -uc constraints/fpga.ucf -uc constraints/ADC_Interface.ucf -p xc6vlx240t-ff1156-1 psr_ddc_150M_top.ngc psr_ddc_150M_top.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt on -ol high -xe n -t 1 -xt 0 -r 4 -global_opt speed -equivalent_register_removal on -mt off -ir off -pr b -lc area -power off -o psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ngd psr_ddc_150M_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off -k psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ncd psr_ddc_150M_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml psr_ddc_150M_top.twx psr_ddc_150M_top.ncd -o psr_ddc_150M_top.twr psr_ddc_150M_top.pcf 
+bitgen -intstyle ise -f psr_ddc_150M_top.ut psr_ddc_150M_top.ncd 
+xst -intstyle ise -ifn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.xst" -ofn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints/rgmii_example_design.ucf -uc constraints/fpga.ucf -uc constraints/ADC_Interface.ucf -p xc6vlx240t-ff1156-1 psr_ddc_150M_top.ngc psr_ddc_150M_top.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt on -ol high -xe n -t 1 -xt 0 -r 4 -global_opt speed -equivalent_register_removal on -mt off -ir off -pr b -lc area -power off -o psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ngd psr_ddc_150M_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ncd psr_ddc_150M_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml psr_ddc_150M_top.twx psr_ddc_150M_top.ncd -o psr_ddc_150M_top.twr psr_ddc_150M_top.pcf 
+bitgen -intstyle ise -f psr_ddc_150M_top.ut psr_ddc_150M_top.ncd 
+xst -intstyle ise -ifn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.xst" -ofn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.syr" 
+xst -intstyle ise -ifn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.xst" -ofn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints/rgmii_example_design.ucf -uc constraints/fpga.ucf -uc constraints/ADC_Interface.ucf -p xc6vlx240t-ff1156-1 psr_ddc_150M_top.ngc psr_ddc_150M_top.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt on -ol high -xe n -t 1 -xt 0 -r 4 -global_opt speed -equivalent_register_removal on -mt off -ir off -pr b -lc area -power off -o psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ngd psr_ddc_150M_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ncd psr_ddc_150M_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml psr_ddc_150M_top.twx psr_ddc_150M_top.ncd -o psr_ddc_150M_top.twr psr_ddc_150M_top.pcf 
+bitgen -intstyle ise -f psr_ddc_150M_top.ut psr_ddc_150M_top.ncd 
+xst -intstyle ise -ifn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.xst" -ofn "/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/psr_ddc_150M_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc constraints/rgmii_example_design.ucf -uc constraints/fpga.ucf -uc constraints/ADC_Interface.ucf -p xc6vlx240t-ff1156-1 psr_ddc_150M_top.ngc psr_ddc_150M_top.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt on -ol high -xe n -t 1 -xt 0 -r 4 -global_opt speed -equivalent_register_removal on -mt off -ir off -pr b -lc area -power off -o psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ngd psr_ddc_150M_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off psr_ddc_150M_top_map.ncd psr_ddc_150M_top.ncd psr_ddc_150M_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml psr_ddc_150M_top.twx psr_ddc_150M_top.ncd -o psr_ddc_150M_top.twr psr_ddc_150M_top.pcf 
+bitgen -intstyle ise -f psr_ddc_150M_top.ut psr_ddc_150M_top.ncd 

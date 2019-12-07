@@ -25,7 +25,7 @@ module Digital_Gain_32bit_neg #(
 )(
 	input clk,
 	input rst,
-	input ms_in,
+	//input ms_in,
 	
 	input en_sync_in,
 //	input [(BITWIDTH-1):0]cnt_sync_in,
@@ -36,7 +36,7 @@ module Digital_Gain_32bit_neg #(
 //	input [31:0]para_in2,
 //	input [31:0]para_in3,
 	
-	input [15:0]scaled_coeff,//其实这里只需要6bit就够了，为了与之前的设计兼容，所以这里采用的是16bit
+	input [15:0]scaled_coeff,//实只要6bit凸耍为之前萍荩玫16bit
 	
 	output [15:0]para_out0,
 //	output [15:0]para_out1,
@@ -48,18 +48,18 @@ module Digital_Gain_32bit_neg #(
 	output reg [(BITWIDTH+1):0]cnt_sync_out,
 	output [31:0]max
     );
-//找出最大值并输出
+//页值
 Get_Max_32bit_neg Get_Max_Para(
     .clk(clk), 
     .rst(rst), 
-    .ms_in(ms_in), 
+    //.ms_in(ms_in), 
     .data0(para_in0), 
 //    .data1(para_in1), 
 //    .data2(para_in2), 
 //    .data3(para_in3), 
     .max(max)
     );
-//做移位操作，选出合适的8bit
+//位选实8bit
 adjust_32bit adjust0(
     .clk(clk), 
 //    .rst(rst), 
@@ -91,7 +91,7 @@ adjust_32bit adjust0(
 //    .para_in(para_in3), 
 //    .para_out(para_out3)
 //    );
-//同步信号输出
+//同藕
 reg en_sync_in0;
 //reg [(BITWIDTH-1):0]cnt_sync_in0;
 reg [(BITWIDTH+1):0]cnt_sync_in0;

@@ -21,7 +21,7 @@
 module Get_Max_48bit(
 	input clk,
 	input rst,
-	input ms_in,
+	//input ms_in,
 	
 	input [47:0]data0,
 //	input [47:0]data1,
@@ -30,6 +30,12 @@ module Get_Max_48bit(
 	
 	output [47:0]max
     );
+wire ms_in;
+ms_gen U_ms_gen(
+	.clk(clk),
+	.rst(rst),
+	.ms_out(ms_in)
+	);
 reg [47:0] max0=0;
 ////reg [47:0] max1=0;
 ////reg [47:0] max2=0;

@@ -21,7 +21,7 @@
 module Get_Max_32bit(
 	input clk,
 	input rst,
-	input ms_in,
+	//input ms_in,
 	
 	input [31:0]data0,
 //	input [31:0]data1,
@@ -30,6 +30,14 @@ module Get_Max_32bit(
 	
 	output [31:0]max
     );
+	 
+wire ms_in;
+ms_gen U_ms_gen(
+	.clk(clk),
+	.rst(rst),
+	.ms_out(ms_in)
+	);
+	
 reg [31:0] max0=0;
 //reg [31:0] max1=0;
 //reg [31:0] max2=0;

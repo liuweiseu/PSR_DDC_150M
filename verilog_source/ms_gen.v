@@ -30,9 +30,11 @@ output ms_out;
 
 reg [20:0] cnt_frame; //13.98ms on 150MHz
 reg ms_inner;
+wire rst_ignore;
+assign rst_ignore = 0;
 always@(posedge clk)
   begin
-   if (rst)
+   if (rst_ignore)
       cnt_frame<=0;			//64'd2
 	else
    	cnt_frame<=cnt_frame+1'b1;
@@ -40,7 +42,7 @@ always@(posedge clk)
 
 always@(posedge clk)
 begin
-  if (rst)
+  if (rst_ignore)
      ms_inner  <= 1'b0;
   else if (	cnt_frame == 0)
      ms_inner<=1'b1;

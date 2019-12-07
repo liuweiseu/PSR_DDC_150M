@@ -21,7 +21,7 @@
 module Get_Max_32bit_neg(
 	input clk,
 	input rst,
-	input ms_in,
+	//input ms_in,
 	
 	input [31:0]data0,
 //	input [31:0]data1,
@@ -30,6 +30,14 @@ module Get_Max_32bit_neg(
 	
 	output [31:0]max
     );
+	 
+wire ms_in;
+ms_gen U_ms_gen(
+	.clk(clk),
+	.rst(0),
+	.ms_out(ms_in)
+	);
+	
 reg [31:0] max0=0;
 //reg [31:0] max1=0;
 //reg [31:0] max2=0;
@@ -44,7 +52,7 @@ reg ms_in_reg1=0;
 reg ms_in_reg2=0;
 
 reg [31:0]data0_temp;//,data1_temp,data2_temp,data3_temp;
-//取绝对值
+//取值
 always @(posedge clk)
 	begin
 		if(rst)

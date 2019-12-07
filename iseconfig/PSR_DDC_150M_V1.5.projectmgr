@@ -181,15 +181,43 @@
          <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M_V2.4|verilog_source|psr_ddc_150M_top.v/U9_Data_Combine_RL - Data_Combine_RL</ClosedNode>
          <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M_V2.4|verilog_source|psr_ddc_150M_top.v/U_DDC_Digital_gain_L - DDC_Digital_gain</ClosedNode>
          <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M_V2.4|verilog_source|psr_ddc_150M_top.v/U_DDC_Digital_gain_R - DDC_Digital_gain</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_data_conv - adc_data_conv</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_data_interface - adc_data_interface</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_data_interface - adc_data_interface/u_adc_data_interface_one_core_A - adc_data_interface_one_core/u_adc_data_sync_H - adc_data_sync</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_data_interface - adc_data_interface/u_adc_data_interface_one_core_A - adc_data_interface_one_core/u_adc_data_sync_L - adc_data_sync</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_data_interface - adc_data_interface/u_adc_data_interface_one_core_A - adc_data_interface_one_core/u_adc_if_single_path_H - adc_if_single_path</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_data_interface - adc_data_interface/u_adc_data_interface_one_core_A - adc_data_interface_one_core/u_adc_if_single_path_L - adc_if_single_path</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_max_detect_4_cores - adc_max_detect</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_min_detect_4_cores - adc_min_detect/U_adc_min_one_core - adc_min_one_core</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_min_detect_4_cores - adc_min_detect/U_adc_min_one_core_B - adc_min_one_core</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_min_detect_4_cores - adc_min_detect/U_adc_min_one_core_C - adc_min_one_core</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U1_adc_if_check_snap - adc_if_check_snap/U_adc_snap_buffer - adc_snap_buffer</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U2_2400to150_L - DDC_2400to150</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U2_2400to150_R - DDC_2400to150</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U2_FREQEQUA_L - Freq_Equalization</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U2_FREQEQUA_R - Freq_Equalization</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U2_ddc_data_fifo - DDC_DATA_FIFO</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U2_fft_150M - FFT_150M</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U3_Cal_IQUV_V2 - Cal_IQUV_V2</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U4_Pre_Digital_Gain - Pre_Digital_Gain/Digital_Gain_Q - Digital_Gain_48bit/Get_Max_Para - Get_Max_48bit</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U5_Acc_IQUV - Acc_IQUV</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U6_Aft_Digital_Gain - Aft_Digital_Gain</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U8_Precision_adj - PRECISION_ADJ</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U8_de_disp - de_dispersion</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U9_Cal_Power - Cal_Power</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U9_Data_Combine - Data_Combine</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U9_Data_Combine_RL - Data_Combine_RL</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U_DDC_Digital_gain_L - DDC_Digital_gain</ClosedNode>
+         <ClosedNode>/psr_ddc_150M_top |media|wei|DATA|LW|Project|PSR|PSR_DDC_150M|verilog_source|psr_ddc_150M_top.v/U_DDC_Digital_gain_R - DDC_Digital_gain</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>fpga.ucf (/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.4/constraints/fpga.ucf)</SelectedItem>
+         <SelectedItem>psr_ddc_150M_top (/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/verilog_source/psr_ddc_150M_top.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >40</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000025d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000025d0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000025f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000025f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>fpga.ucf (/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M_V2.4/constraints/fpga.ucf)</CurrentItem>
+      <CurrentItem>psr_ddc_150M_top (/media/wei/DATA/LW/Project/PSR/PSR_DDC_150M/verilog_source/psr_ddc_150M_top.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -197,13 +225,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000185000000010000000100000000000000000000000064ffffffff000000810000000000000001000001850000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -239,13 +267,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Generate Programming File</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000176000000010000000100000000000000000000000064ffffffff000000810000000000000001000001760000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Generate Programming File</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff0000000000000002000001a7000000ba01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
